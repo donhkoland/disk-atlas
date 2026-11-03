@@ -1,0 +1,38 @@
+# Private runtime configuration
+.env
+.env.*
+!.env.example
+config.json
+local.key
+runtime.json
+*.p12
+*.pfx
+*.pem
+*.key
+*.pass
+signing/
+
+# Installed dependencies and runtime data
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+data/
+salida/
+output/
+downloads/
+*.sqlite*
+*.db
+*.log
+.site-mirror-state.json
+.mirror-receipts/
+download-report.json
+
+# Generated local QA and platform files
+artifacts/
+test-results/
+playwright-report/
+*.lnk
+.DS_Store
+Thumbs.db

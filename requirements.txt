@@ -1,0 +1,5 @@
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+pillow>=10,<13
+Send2Trash>=1.8.3,<2
+pywin32>=306; sys_platform == "win32"
